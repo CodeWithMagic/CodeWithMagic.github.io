@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <nav>
+    <div id="logo">vishnu</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu">
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+      <div class="menu-line"></div>
+    </div>
+  </nav>
+  <div id="profile">
+    <div id="profile-con-1">
+      <section class="pro">
+        <div id="profile-image-con">
+          <img src="../image/1696260902749.jpg" id="profile-image" alt="">
+        </div>
+      </section>
+      <section class="text">
+        <p class="text_p1">Hyy I'm</p>
+        <h1 class="title">vishnu</h1>
+        <p class="text_p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="button" onclick="window.open('../VISHNU BRAHMAN S RESUME.pdf')">
+            Download CV
+          </button>
+          <button class="button" onclick="location.href='https://github.com/'">
+            github
+          </button>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div id="about">
+    <h1 class="title">About Me</h1>
+    <h3>Education</h3>
+    <section class="section-con">
+      <div class="about-det-con">
+        <section class="about-containers">
+          <div class="details-container">
+            <h1>H.S.C</h1>
+            <h3 class="color1">Ram Jeyam Vidyaa Mandir Matric Hr Sec School</h3>
+            <p>Bio-maths</p>
+
+          </div>
+        </section>
+        <section class="about-containers">
+          <div class="details-container">
+            <h1>B.E. Bachelors Degree</h1>
+            <h3 class="color1">karpagam College Of Engineering</h3>
+            <p>Electronic And Communication Engineering</p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <div id="lorem-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+        reprehenderit et laborum, rem, dolore eum quod voluptate
+        exercitationem nobis, nihil esse debitis maxime facere minus sint
+        delectus velit in eos quo officiis explicabo deleniti dignissimos.
+        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+        reiciendis ea magnam? Nulla, impedit fuga!
+      </p>
+    </div>
+
+  </div>
+  <div id="projects">
+    <h1 class="title">Projects</h1>
+    <div class="project-con-1">
+
+      <div class="project-con-2">
+          <div class="img-container">
+              <img src="./image/photo-travel.avif" alt="Project 1" class="project-image" />
+          </div>
+          <h2 class=" project-title">Project One</h2>
+          <div class="btn-container">
+              <button class="button" onclick="location.href='https://github.com/CodeWithMagic/landingpage.github.io'">
+                  Github
+              </button>
+          </div>
+      </div>
+
+      <div class="project-con-2">
+        <div class="img-container">
+            <img src="./image/portfolio img1.webp" alt="Project 1" class="project-image" />
+        </div>
+        <h2 class=" project-title">Project Two</h2>
+        <div class="btn-container">
+            <button class="button" onclick="location.href='https://github.com/CodeWithMagic/portfolio.github.io'">
+                Github
+            </button>
+        </div>
+    </div>
+
+    <div class="project-con-2">
+      <div class="img-container">
+          <img src="./image/calculatorimg.jpg" alt="Project 1" class="project-image" />
+      </div>
+      <h2 class=" project-title">Project Three</h2>
+      <div class="btn-container">
+          <button class="button" onclick="location.href='https://github.com/CodeWithMagic/calculator.github.io'">
+              Github
+          </button>
+      </div>
+  </div>
+  </div>
+  <section id="contact">
+    <h2 class="title">Contact</h2>
+
+  <div id="contact-con">
+    <p id="contact-p">vishnubrahman2@gmail.com</p>
+  </div>
+  </section>
+ </div>
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    const menu = document.querySelector('.menu')
+    const menuList = document.querySelector('nav ul')
+    menu.addEventListener('click', () => {
+      menuList.classList.toggle('showmenu')
+    })
+  </script>
+</body>
+
+</html>

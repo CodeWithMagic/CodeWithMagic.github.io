@@ -1,0 +1,605 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(31, 31, 31);
+}
+
+p,
+h1,
+h3,
+h2 {
+  color: rgb(228, 228, 228);
+  text-align: center;
+}
+
+nav {
+  font-size: 30px;
+  height: 80px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+
+}
+
+ul {
+  word-spacing: 40px;
+}
+
+nav li {
+  display: inline-block;
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(249, 248, 248);
+}
+
+a:hover {
+  background-color: whitesmoke;
+  color: rgb(42, 42, 42);
+  border-radius: 10px;
+
+}
+
+.menu-line {
+  height: 3px;
+  width: 28px;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  margin-bottom: 6px;
+}
+
+.menu {
+  display: none;
+  cursor: pointer;
+}
+
+#logo {
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(115, 161, 248);
+  background: transparent;
+}
+
+@media all and (max-width:640px) {
+  nav {
+    flex-direction: column;
+
+  }
+
+  nav li {
+    display: block;
+    padding: 5px;
+  }
+
+  ul {
+    text-align: center;
+    background-color: rgb(38, 38, 38);
+    border-radius: 15px;
+  }
+
+  .menu {
+    display: block;
+    position: absolute;
+    top: 43px;
+    right: 50px;
+  }
+
+  #logo {
+    position: absolute;
+    left: 40px;
+    top: 20px;
+  }
+
+  ul {
+
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 30px;
+  }
+
+  .showmenu {
+    display: block;
+  }
+}
+
+#profile {
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#profile-con-1 {
+
+  height: 60vh;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+p,
+h1 {
+  text-align: center;
+}
+
+#profile-image {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+}
+
+.text {
+  align-self: center;
+  text-align: center;
+}
+
+.text p {
+  font-weight: 600;
+}
+
+.text_p1 {
+  text-align: center;
+}
+
+.text_p2 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+#gitid {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  font-weight: 600;
+  background-color: whitesmoke;
+  transition: 300ms;
+  padding: 10px;
+  border-radius: 17px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+
+@media all and (max-width:640px) {
+  #profile-con-1 {
+    flex-direction: column;
+
+  }
+
+  #profile-image {
+    height: 300px;
+    width: 300px;
+
+  }
+}
+
+#about {
+  height: 90vh;
+  padding-top: 60px;
+}
+
+.section-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.about-det-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.about-containers {
+  border: 1px solid whitesmoke;
+  border-radius: 22px;
+  padding: 10px;
+}
+
+.color1 {
+  color: rgb(171, 167, 169);
+}
+
+#lorem-text {
+  padding: 50px;
+}
+
+@media all and (max-width:640px) {
+  .about-det-con {
+    flex-direction: column;
+  }
+}
+
+#projects {
+  height: 90vh;
+  margin: 40px;
+}
+
+.project-con-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 70px;
+}
+.project-con-2{
+  border: 1px solid whitesmoke;
+  border-radius: 30px;
+  width: 300px;
+  height: 200px;
+  padding: 30px;
+
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  
+}
+.project-image {
+  height: 90%;
+  width: 60%;
+  border-radius: 30px;
+}
+.btn-container{
+  margin-top: 10px;
+}
+@media all and (max-width:640px) {
+  .project-con-1  {
+    flex-direction: column;
+  }
+}
+#contact{
+ 
+  justify-content: center;
+  align-items: center;
+}
+#contact-con{
+  height: 20vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  #contact-p{
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+   padding: 40px;
+  }
+  * {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(31, 31, 31);
+  }
+
+  p,
+  h1,
+  h3,
+  h2 {
+    color: rgb(228, 228, 228);
+    text-align: center;
+  }
+
+  nav {
+    font-size: 30px;
+    height: 80px;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+  }
+
+  ul {
+    word-spacing: 40px;
+  }
+
+  nav li {
+    display: inline-block;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(249, 248, 248);
+  }
+
+  a:hover {
+    background-color: whitesmoke;
+    color: rgb(42, 42, 42);
+    border-radius: 10px;
+
+  }
+
+  .menu-line {
+    height: 3px;
+    width: 28px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    margin-bottom: 6px;
+  }
+
+  .menu {
+    display: none;
+    cursor: pointer;
+  }
+
+  #logo {
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(115, 161, 248);
+    background: transparent;
+  }
+
+  @media all and (max-width:640px) {
+    nav {
+      flex-direction: column;
+
+    }
+
+    nav li {
+      display: block;
+      padding: 5px;
+    }
+
+    ul {
+      text-align: center;
+      background-color: rgb(38, 38, 38);
+      border-radius: 15px;
+    }
+
+    .menu {
+      display: block;
+      position: absolute;
+      top: 43px;
+      right: 50px;
+    }
+
+    #logo {
+      position: absolute;
+      left: 40px;
+      top: 20px;
+    }
+
+    ul {
+
+      display: none;
+      position: absolute;
+      top: 90px;
+      right: 30px;
+    }
+
+    .showmenu {
+      display: block;
+    }
+  }
+
+  #profile {
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #profile-con-1 {
+
+    height: 60vh;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  p,
+  h1 {
+    text-align: center;
+  }
+
+  #profile-image {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+  }
+
+  .text {
+    align-self: center;
+    text-align: center;
+  }
+
+  .text p {
+    font-weight: 600;
+  }
+
+  .text_p1 {
+    text-align: center;
+  }
+
+  .text_p2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #gitid {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+  }
+
+
+
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .button {
+    font-weight: 600;
+    background-color: whitesmoke;
+    transition: 300ms;
+    padding: 10px;
+    border-radius: 17px;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+
+
+  @media all and (max-width:640px) {
+    #profile-con-1 {
+      flex-direction: column;
+
+    }
+
+    #profile-image {
+      height: 300px;
+      width: 300px;
+
+    }
+  }
+
+  #about {
+    height: 90vh;
+    padding-top: 60px;
+  }
+
+  .section-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  .about-det-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+  }
+
+  .about-containers {
+    border: 1px solid whitesmoke;
+    border-radius: 22px;
+    padding: 10px;
+  }
+
+  .color1 {
+    color: rgb(171, 167, 169);
+  }
+
+  #lorem-text {
+    padding: 50px;
+  }
+
+  @media all and (max-width:640px) {
+    .about-det-con {
+      flex-direction: column;
+    }
+  }
+
+  #projects {
+    height: 90vh;
+    margin: 40px;
+  }
+
+  .project-con-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 70px;
+  }
+  .project-con-2{
+    border: 1px solid whitesmoke;
+    border-radius: 30px;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+
+  }
+  .img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    
+  }
+  .project-image {
+    height: 90%;
+    width: 60%;
+    border-radius: 30px;
+  }
+  .btn-container{
+    margin-top: 10px;
+  }
+  @media all and (max-width:640px) {
+    .project-con-1  {
+      flex-direction: column;
+    }
+  }
+  #contact{
+   
+    justify-content: center;
+    align-items: center;
+  }
+  #contact-con{
+    height: 20vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    #contact-p{
+      border: 1px solid whitesmoke;
+      border-radius: 30px;
+     padding: 40px;
+    }
