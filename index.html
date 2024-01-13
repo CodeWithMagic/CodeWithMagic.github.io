@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vishnu's Portfolio</title>
+</head>
+<body>
+   <div class="container">
+  
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">vishnu</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link ">Home</a>
+                  
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    
+                </li>
+                <li class="nav_list">
+                    <a href="#education" class="nav-link">Education</a>
+                  
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                  
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                   
+                </li>
+            </ul>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+   
+    <main class="wrapper">
+      
+       <section class="featured-box" id="home">
+        <div class="featured-image">
+            <div class="image">
+                <img src="./IMG_20230117_112825_642.jpg" alt="avatar">
+            </div>
+          </div>
+          <div class="featured-text">
+            
+            <div class="featured-text-card">
+                <span>Vishnu</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p> Frontend developer with a passion for creating visually stunning
+                   and user-friendly websites...
+                </p>
+            </div>
+            <div class="featured-text-btn">
+                <button class="btn" onclick="window.open('./Vishnu_CV.pdf')">Download CV</button>
+            </div>
+            <div class="social_icons">
+                <div class="icon" onclick="location.href='https://www.instagram.com/'"><i class="fa-brands fa-square-instagram"></i></div>
+                <div class="icon" onclick="location.href='https://www.linkedin.com/feed/'"><i class="fa-brands fa-linkedin-in"></i></div>
+                <div class="icon" onclick="location.href='https://github.com/CodeWithMagic'"><i class="fa-brands fa-github"></i></div>
+               
+            </div>
+          </div>
+         
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                  <img src="./arrow.png" id="arrow" alt="down"> 
+            </a>
+          </div>
+
+       </section>
+      
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>Hi there, I'm a person who is enthusiastic about discovering new things. I have experience in [your area of expertise], and I enjoy coming up with new ideas and finding solutions. [Short description of noteworthy experiences or accomplishments] is part of my journey.
+                        </p>
+                   
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                        
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>JAVA</span>
+                    </div>
+                </div>
+               
+            </div>
+          </div>
+       </section>
+
+     
+
+       <section class="section" id="education">
+          <div class="top-header">
+              <h1>Education</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                
+                <h1>SSC</h1>
+                <h3>Ram Jeyam School Cumbum</h3>
+                <label>Biology</label>
+             
+            </div>
+            <div class="project-box">
+               <h1>HSC</h1>
+                <h3>Ram Jeyam School Cumbum</h3>
+                <label>Bio-Maths</label>
+            </div>
+            <div class="project-box">
+                <h1>B.E</h1>
+                 <h3>Karpagam College </h3>
+                 <label>ECE</label>
+             </div>
+           
+          </div>
+       </section>
+       <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Object Detection IR sensor</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>The purpose of the project is to sense some object of the
+                            surroundings, measure the heat of an object as well as detects the
+                            motion</span>  
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Spy Cam Robot ESP-32 CAM</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>This project allows us to set up a video streaming web server, build
+                            a surveillance camera, take photos, face recognition and detection,
+                            and much more.
+                            </span>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col">
+                
+                <div class="about-info">
+                    <h3>Portfolio</h3>
+                    <p>I create a digital portfolio for my self and include my details
+                        HTML, CSS and JS-Building a Multi-Page Website.
+                        </p>
+                    <h3>Landing Page</h3>
+                    <p>
+                        I create a digital landing page using
+                        Bootstrap a Multi-Page Website.
+
+                    </p>
+                   
+                </div>
+            </div>
+          </div>
+     </section>
+     
+
+       <section class="section" id="contact">
+          <div class="top-header">
+            <h1>Get in touch</h1>
+          </div>
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me </h2>
+                    <p> Email: vishnubrahman2@gmail.com</p>
+                    <p>Tel: +7867893813</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <form method="post" action="mailto:vishnubrahman2@gmail.com">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <br>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <input type="submit" value="send" class="btn">
+                    </div>
+                </form>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <footer>
+        <div class="top-footer">
+            <p>vishnu !</p>
+        </div>
+       
+        <div class="footer-social-icons">
+            <div class="icon"><i class="fa-brands fa-square-instagram"></i></div>
+            <div class="icon"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div class="icon"><i class="fa-brands fa-github"></i></div>
+            
+        </div>
+        <div class="bottom-footer">
+            <p>copy rights @copy Vishnu</p>
+        </div>
+    </footer>
+
+    </div>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/5ccc2ecc8e.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
